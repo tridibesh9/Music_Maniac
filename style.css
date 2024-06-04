@@ -1,0 +1,254 @@
+body{
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: flex-start;
+    background-color:#80BCBD;
+    gap: 1.5rem;
+
+}
+#logo{
+    background-color: #AAD9BB;
+    border-radius: 10px;
+    padding: 1px;
+}
+.Navbar{
+    background-color:#80BCBD;
+    font-family: figtree;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color:#F9F7C9;
+}
+.Navbar:hover{
+    background-color: #D5F0C1;
+}
+
+.container2{
+    display: flex;
+    background-color: #AAD9BB;
+    gap: 4rem;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container3{
+    display: grid;
+    height: 100vh;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    background-color:#D5F0C1;
+}
+.Heading{
+    grid-column: span 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: figtree;
+    font-size: 4rem;
+    background-color:#80BCBD;
+    color:#F9F7C9;
+    font-weight: bolder;
+}
+.container4{
+    display: grid;
+    height: 150vh;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: #D5F0C1;
+}
+.Heading2{
+    grid-column: span 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: figtree;
+    font-size: 4rem;
+    background-color:#80BCBD;
+    color:#F9F7C9;
+    font-weight: bolder;
+}
+.search{
+    grid-column: span 3;
+    display: flex;
+    background-color:antiquewhite;
+    justify-content: center;
+    align-items: center;
+    background-color: #AAD9BB;
+
+}
+.search input[type=text] {
+    
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 40px;
+    font-family: figtree;
+    background-color: #F9F7C9;
+    border-radius: 10px;
+  }
+  .search button{
+    background-color: #AAD9BB;
+  }
+.user_review{
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #AAD9BB;
+}
+footer p{
+    height: 100%;
+    display: inline;
+    margin: 1rem;
+}
+.review_form{
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#AAD9BB;
+    border: 0.25rem solid #AAD9BB;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+}
+#nav_logo{
+    height: 2rem;
+}
+
+#biglogo{
+    height: 30rem;
+}
+.container2>div{
+    font-family: figtree;
+    font-size: 8rem;
+    font-weight: bolder;
+    color: #F9F7C9;
+    width: min-content;
+}
+.tile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#D5F0C1;
+    height: 100%;
+    color: #80BCBD;
+    font-family: figtree;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 2%;
+}
+
+.container3>img{
+    height: 100%;
+    border-radius: 10%;
+}
+
+.tile button{
+    background-color: #AAD9BB;
+    color: #F9F7C9;
+    border: 0.125rem solid #80BCBD;
+    border-radius: 10px;
+    font-family: figtree;
+}
+.review_form{
+    background-color: #D5F0C1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+form{
+    background-color:#80BCBD;
+    color: #D5F0C1;
+    font-family: figtree;
+    font-size: 1.5rem;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+}
+input{
+    width: 70%;
+    font-size: 2rem;
+    background-color: #D5F0C1;
+    border:  3px solid #F9F7C9 ;
+    border-radius: 10px;
+    font-family: figtree;
+    color: #80BCBD;
+}
+#submit_form{
+    background-color: #80BCBD;
+    color: #D5F0C1;
+    width: 50%;
+    font-size: 1.5rem;
+}
+.sub-container{
+    background-color: #80BCBD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sub-container p{
+    margin: none;
+    padding: 0px;
+}
+.sub-container>p{
+    font-family: figtree;
+    font-size: 3rem;
+    color: #D5F0C1;
+}
+.review-tiles{
+    display: flex;
+}
+.review-tiles p{
+    font-family: figtree;
+    padding: 10px;
+}
+.review-tiles>div{
+    height: 100px;
+    width: 100px;
+    
+}
+
+.review-tiles img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.user{
+    font-family: figtree;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #F9F7C9;
+}
+footer img{
+    border-radius: 50%;
+    height: 30px;
+}
+footer{
+    text-align: center;
+    background-color: #80BCBD;
+}
+.card img{
+    border-radius: 10px;
+}
