@@ -25,7 +25,7 @@ body{
     color:#F9F7C9;
 }
 .Navbar:hover{
-    background-color: #D5F0C1;
+    background-color: #AAD9BB;
 }
 
 .container2{
@@ -251,4 +251,27 @@ footer{
 }
 .card img{
     border-radius: 10px;
+}
+.container a :active{
+    color: #80BCBD;
+    background-color:#D5F0C1;
+}
+.container3 :hover{
+    background-color: #80BCBD;
+}
+.container4 :hover{
+    background-color: #80BCBD;
+    
+}
+.card :hover{
+    background-color: #AAD9BB;
+    color: #80BCBD;
+    width: 50%;
+}
+.container2>div>a{
+    color: #D5F0C1;
+}
+.Maniac :hover{
+    font-size: 105%;
+    color: #80BCBD;
 }
